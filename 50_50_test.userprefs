@@ -1,0 +1,18 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Test_01.cs">
+    <Files>
+      <File FileName="Assets\Scripts\UIScripts.cs" Line="13" Column="1" />
+      <File FileName="Assets\Scripts\Test_01.cs" Line="16" Column="17" />
+      <File FileName="Assets\Scripts\GameManager.cs" Line="29" Column="39" />
+      <File FileName="Assets\Scripts\MouseEventCatcher.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\LiveDays.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\FailScene_Script.cs" Line="18" Column="1" />
+      <File FileName="Assets\Scripts\Success_Scripts.cs" Line="13" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{4D4CB4DE-12AC-5D83-FD47-CCF8AFF7D79D}</ProjectGuid>
+	<ProjectGuid>{71F38277-1255-8EF2-0F39-2D8E99FC0A2C}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,10 +46,14 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\FailScene_Script.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\GameStartScript.cs" />
      <Compile Include="Assets\Scripts\LayerSort.cs" />
+     <Compile Include="Assets\Scripts\LiveDays.cs" />
      <Compile Include="Assets\Scripts\MouseEventCatcher.cs" />
+     <Compile Include="Assets\Scripts\Success_Scripts.cs" />
+     <Compile Include="Assets\Scripts\Test_01.cs" />
      <Compile Include="Assets\Scripts\UIScripts.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
