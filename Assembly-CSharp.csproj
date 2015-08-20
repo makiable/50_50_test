@@ -53,7 +53,8 @@
      <Compile Include="Assets\Scripts\LiveDays.cs" />
      <Compile Include="Assets\Scripts\MouseEventCatcher.cs" />
      <Compile Include="Assets\Scripts\Success_Scripts.cs" />
-     <Compile Include="Assets\Scripts\Test_01.cs" />
+     <Compile Include="Assets\Scripts\Test01_Scripts\DoorControl.cs" />
+     <Compile Include="Assets\Scripts\Test01_Scripts\Test_01.cs" />
      <Compile Include="Assets\Scripts\UIScripts.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
