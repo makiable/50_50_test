@@ -1,14 +1,15 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Test01_Scripts\Test_01.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GameManager.cs">
     <Files>
-      <File FileName="Assets\Scripts\Test01_Scripts\Test_01.cs" Line="59" Column="8" />
-      <File FileName="Assets\Scripts\Test01_Scripts\DoorControl.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\MainScene\CameraControl.cs" Line="8" Column="1" />
+      <File FileName="Assets\Scripts\Test01_Scripts\Test_01.cs" Line="19" Column="21" />
+      <File FileName="Assets\Scripts\Test01_Scripts\DoorControl.cs" Line="6" Column="1" />
       <File FileName="..\..\..\..\..\Desktop\test-git\2D_RPG_Action1\Assets\Script\ArcherControl.cs" Line="1" Column="1" />
-      <File FileName="..\..\..\..\..\Desktop\test-git\2D_RPG_Action1\Assets\Script\GameManager.cs" Line="1" Column="1" />
+      <File FileName="..\..\..\..\..\Desktop\test-git\2D_RPG_Action1\Assets\Script\GameManager.cs" Line="24" Column="2" />
       <File FileName="Assets\Scripts\MouseEventCatcher.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\FailScene_Script.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\GameManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GameManager.cs" Line="22" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

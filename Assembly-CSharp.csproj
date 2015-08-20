@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\GameStartScript.cs" />
      <Compile Include="Assets\Scripts\LayerSort.cs" />
      <Compile Include="Assets\Scripts\LiveDays.cs" />
+     <Compile Include="Assets\Scripts\MainScene\CameraControl.cs" />
      <Compile Include="Assets\Scripts\MouseEventCatcher.cs" />
      <Compile Include="Assets\Scripts\Success_Scripts.cs" />
      <Compile Include="Assets\Scripts\Test01_Scripts\DoorControl.cs" />

@@ -3,11 +3,21 @@ using System.Collections;
 
 public class GameManager : MonoBehaviour {
 
+	public CameraControl mCameraControl;
+
+
 	//현재 레벨 표시.
 	public int level = 0;
 
 	//살아 남은 확률 표시.
 	public float LivePersent = 0;
+
+
+	public enum Status{
+		idle,
+		Enter
+	}
+
 	
 
 	// Use this for initialization
@@ -19,10 +29,8 @@ public class GameManager : MonoBehaviour {
 		// Use this for initialization
 	void OnButtonDown(string type){
 		if (type == "Start") {
-			Application.LoadLevel("Test_Game");
-			LiveDays.LiveDaysint = 0;
-
-
+			mCameraControl.SetStatus(CameraControl.Status.Start);
+			Invoke("StartButton",2);
 		}
 
 		if (type == "NextLevel") {
@@ -33,6 +41,11 @@ public class GameManager : MonoBehaviour {
 			Application.LoadLevel("Start_Main");
 			LiveDays.LiveDaysint = 0;
 		}
+	}
+
+	void StartButton(){
+		Application.LoadLevel("Test_Game");
+		LiveDays.LiveDaysint = 0;
 	}
 
 
